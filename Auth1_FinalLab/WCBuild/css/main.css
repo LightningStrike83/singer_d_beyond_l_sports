@@ -142,6 +142,16 @@ footer {
 input[type=checkbox] {
   float: left;
   margin-left: 5px;
+  position: relative;
+}
+
+input[type=checkbox]:checked::after {
+  content: "\1F4AA";
+  position: absolute;
+  font-size: 2em;
+  animation: fadeIn 1s;
+  left: 75px;
+  bottom: -7px;
 }
 
 span {
@@ -179,3 +189,8 @@ span {
 }
 
 .lightbox:target { display: block; }
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
