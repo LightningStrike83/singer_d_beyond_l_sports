@@ -172,7 +172,7 @@ span {
   font-weight: bolder;
 }
 
-.lightbox_close:hover { opacity: 0.5; color: red; }
+.lightbox_close:hover { opacity: 0.5; color: rgb(255, 88, 247); }
 
 .lightbox article {
   width: 55%;
@@ -193,4 +193,10 @@ span {
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity: 1;}
+}
+
+#lightbox3 {
+  background-image: url(../images/france_team.png);
+  background-repeat: no-repeat;
+  background-position: 150px;
 }
