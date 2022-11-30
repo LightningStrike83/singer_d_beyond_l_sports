@@ -21,6 +21,14 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
 /* main header rules */
 header {
   position: sticky;
@@ -55,10 +63,10 @@ header {
 
 .characters li a { text-decoration: none; }
 
-.red_bumper {
+.pink_bumper {
   width: 100%;
   height: 6px;
-  background-color: red;
+  background-color: rgb(255, 88, 247);
 }
 
 article { 
@@ -131,6 +139,16 @@ footer {
 
 #lightbox2 { background-image: url('../images/Thor_LB_Bg.png'); }
 
+input[type=checkbox] {
+  float: left;
+  margin-left: 5px;
+}
+
+span {
+  float: left;
+  padding-left: 3px;
+}
+
 .lightbox_close {
   position: relative;
   top: 20px;
@@ -160,5 +178,4 @@ footer {
   padding-top: 2em;
 }
 
-/* turn the lightbox on using the :target pseudo selector */
 .lightbox:target { display: block; }
