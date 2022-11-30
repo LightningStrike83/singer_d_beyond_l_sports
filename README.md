@@ -14,6 +14,7 @@ History
 11/30/22 D- Added files, did some code clean up, and updated readme
 11/30/22 L- Changed spritesheet to flags, updated the css and html with them, did some lightbox tagging cleanup for consistency
 11/30/22 D- Added checkboxes to countries, added a little styling
+11/30/22 L- Added animation
 
 Credits
 Singer, Dan
