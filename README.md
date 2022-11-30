@@ -16,6 +16,7 @@ History
 11/30/22 D- Added checkboxes to countries, added a little styling
 11/30/22 L- Added animation
 11/30/22 D- Added info for France with an image
+11/30/22 L- Added info for USA with an image, some coding cleanup
 
 Credits
 Singer, Dan

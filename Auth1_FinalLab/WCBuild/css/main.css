@@ -40,11 +40,11 @@ header {
 #main-logo { width: 220px; padding: 10px 20px; margin-left: auto; }
 
 /* main rules here */
-#character-nav { margin-left: 30%; max-width: 60%; }
+#countries-nav { margin-left: 30%; max-width: 60%; }
 
-.characters { list-style-type: none; }
+.countries { list-style-type: none; }
 
-.characters li { 
+.countries li { 
   display: inline-block;
   height: 220px;
   margin: 10px 8px;
@@ -56,12 +56,12 @@ header {
   cursor: pointer;
 }
 
-.characters li h5 {
+.countries li h5 {
   color: white;
   padding: 12px 8px;
 }
 
-.characters li a { text-decoration: none; }
+.countries li a { text-decoration: none; }
 
 .pink_bumper {
   width: 100%;
@@ -102,6 +102,27 @@ article p {
 
 .sprite:hover { background-position-y: -150px !important; }
 
+input[type=checkbox] {
+  float: left;
+  margin-left: 5px;
+  position: relative;
+}
+
+input[type=checkbox]:checked::after {
+  content: "\1F4AA";
+  position: absolute;
+  font-size: 2em;
+  animation: fadeIn 1s;
+  left: 75px;
+  bottom: -7px;
+}
+
+span {
+  float: left;
+  padding-left: 3px;
+}
+
+
 /* footer rules here */
 footer {
   color: white;
@@ -136,29 +157,6 @@ footer {
 
   display: none;
 }
-
-#lightbox2 { background-image: url('../images/Thor_LB_Bg.png'); }
-
-input[type=checkbox] {
-  float: left;
-  margin-left: 5px;
-  position: relative;
-}
-
-input[type=checkbox]:checked::after {
-  content: "\1F4AA";
-  position: absolute;
-  font-size: 2em;
-  animation: fadeIn 1s;
-  left: 75px;
-  bottom: -7px;
-}
-
-span {
-  float: left;
-  padding-left: 3px;
-}
-
 .lightbox_close {
   position: relative;
   top: 20px;
@@ -190,13 +188,19 @@ span {
 
 .lightbox:target { display: block; }
 
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
+#lightbox {
+  background-image: url(../images/usa_team.png);
+  background-repeat: no-repeat;
+  background-position: 150px;
 }
 
 #lightbox3 {
   background-image: url(../images/france_team.png);
   background-repeat: no-repeat;
   background-position: 150px;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
