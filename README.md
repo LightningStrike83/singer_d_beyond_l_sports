@@ -18,6 +18,7 @@ History
 11/30/22 D- Added info for France with an image
 11/30/22 L- Added info for USA with an image, some coding cleanup
 11/30/22 D- Changed some layout stuff
+11/30/22 D- (After class) Changed even more of the layout so it looks more unique
 
 Credits
 Singer, Dan
